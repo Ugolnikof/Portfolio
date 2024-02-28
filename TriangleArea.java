@@ -63,8 +63,8 @@ class Triangle {
 
 // класс Точка
 class TrianglePoint {
-    private double x;
-    private double y;
+    private final double x;
+    private final double y;
 
     public TrianglePoint(final double x, final double y) {
         this.x = x;
